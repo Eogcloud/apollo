@@ -1,19 +1,15 @@
 {
-  "name": "apollo",
+  "name": "notes-node",
   "version": "1.0.0",
-  "description": "NASA photo stream app",
+  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Eogcloud/apollo.git"
-  },
-  "author": "Eamonn O Broithe",
+  "author": "Andrew Mead",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Eogcloud/apollo/issues"
-  },
-  "homepage": "https://github.com/Eogcloud/apollo#readme"
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "yargs": "^4.7.1"
+  }
 }
